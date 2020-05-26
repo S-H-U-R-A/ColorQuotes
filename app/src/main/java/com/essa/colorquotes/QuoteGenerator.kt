@@ -1,9 +1,11 @@
 package com.essa.colorquotes
 
 // Se crea un singleton, es decir la clase solo se crea una vez
+
 object QuoteGenerator {
     private val quoteList = listOf<Quote>(
         Quote("Somos nuestras desiciones", "A. Dumbledore"),
+        Quote("El amor de mi vida siempre es y será esa niña de 14 años llamada Darlyn Caicedo", "S. Rodriguez"),
         Quote("Stay hungry, stay foolfish", "S. Jobs"),
         Quote("Ojo por ojo y el mundo quedara ciego", "M. Gandhi"),
         Quote("El mundo esta lleno de cosas obvias que nunca nadie observa", "S. Holmes"),
